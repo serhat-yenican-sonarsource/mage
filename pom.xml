@@ -37,6 +37,8 @@
               * for IDE or sonar usage: mvn install -Djacoco.formats=XML -Djacoco.skip=false -Dmaven.test.failure.ignore=true
               * for offline report: mvn install -Djacoco.skip=false -Dmaven.test.failure.ignore=true
         -->
+           <sonar.organization>serhat-yenican-sonarsource</sonar.organization>
+           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <jacoco.formats>XML,HTML</jacoco.formats>
         <jacoco.skip>true</jacoco.skip>
 
